@@ -1,0 +1,43 @@
+Phone Number Information App
+
+This simple Python script utilizes the `phonenumbers` library to gather information about a given phone number. Users can input a phone number with the country code, and the script will provide details such as the timezone, carrier name, and region information.
+
+Getting Started
+
+1. Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/phone-info-app.git
+   ```
+
+2. Navigate to the Project:**
+   ```bash
+   cd phone-info-app
+   ```
+
+3. Install Dependencies:**
+   ```bash
+   pip install phonenumbers
+   ```
+
+Usage
+
+1. Run the script by executing the following command:
+   ```bash
+   python phone_info_app.py
+   ```
+
+2. Enter the phone number when prompted, including the country code (e.g., +963).
+
+3. View the information retrieved, including timezone, carrier name, and region details.
+
+Dependencies
+
+- [phonenumbers](https://pypi.org/project/phonenumbers/): A library for working with phone numbers in Python.
+
+Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
